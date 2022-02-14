@@ -1,0 +1,241 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: lemonchiffon;
+}
+#navbar{
+    align-items: center;
+    display: flex;
+    height: 94px;
+    
+}
+#navbar::before{
+    
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 16%;
+    width: 100%;
+    opacity: 0.8;
+    z-index: -1;
+}
+#navbar img{
+    
+    margin: 10px 4px;
+    height: 83px;
+}
+ul{
+    display: flex;
+    margin: 33px 3px;
+    padding: 18px 0px;
+    
+}
+#navbar ul li {
+    margin: 3px 18px;
+    padding: 2px 4px;
+    list-style-type: none;
+    font-size: 1.1rem;
+}
+#navbar ul li a{
+    /* font-family: 'Balsamiq Sans', cursive; */
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: blanchedalmond;
+    text-decoration: none;
+    margin: auto;
+    width: 20px;
+    align-content: center;
+    
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: blanchedalmond;
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 8px;
+    font-weight: bolder;
+    font-size: 1.35rem;
+}
+
+
+#home{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 3px 200px;
+    height: 300px;
+    color: rgb(226, 218, 218);
+    justify-content: center;
+    align-items: center;
+}
+#home h1{
+    font-family: 'Josefin Sans', sans-serif;
+    height: 40px;
+    padding: 8px;
+}
+
+#home p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 700 ;
+    font-size: 1rem;
+}
+.btn{
+    font-family: 'Montserrat Alternates', sans-serif;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-weight: bolder;
+    border-radius: 20px;
+    margin: 20px;
+    top:6px;
+    border: 2px solid rgb(226, 218, 218); 
+    padding:10px;
+    font-size: 1rem;
+}
+.btn:hover{
+    background-color: sandybrown;
+    cursor: pointer;
+    font-size: 1.35rem;
+    border-radius: 25px;
+}
+    
+
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('./items.jpg') no-repeat center center/cover;
+    height: 66%;
+    width: 100%;
+    opacity: 0.95;
+    z-index: -2;
+    top: 0px;
+}
+
+
+.box img{
+    height: 100px;
+    margin: 6px auto;
+    display: block;
+    border-radius: 5px;
+}
+#services{
+    border: 2px solid black;
+    display: flex;
+    padding: 3px 15px;
+    margin: 3px 30px;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: peachpuff;
+    
+}
+p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
+}
+.box{
+    display: flex;
+}
+.hi{
+    text-align: center;
+}
+.heading{
+    font-family: 'Josefin Sans', sans-serif;
+    color: brown;
+    font-size: 1.7rem;
+    margin: 6px 15px;
+}
+#hloji{
+    font-family: 'Josefin Sans', sans-serif;
+    /* margin: 10px ; */
+    background-color: black;
+    opacity: 0.9;
+    z-index: -1;
+    padding: 15px;
+    color: palegoldenrod;
+    font-size: 3.5rem;
+    margin: 55px 0px 15px 0px;
+}
+#hlojis{
+    font-family: 'Josefin Sans', sans-serif;
+    /* margin: 10px ; */
+    background-color: black;
+    opacity: 0.9;
+    z-index: -1;
+    padding: 15px;
+    color: palegoldenrod;
+    font-size: 3.5rem;
+    margin: 15px 0px 15px 0px;
+}
+#hlo{
+    font-family: 'Josefin Sans', sans-serif;
+    /* margin: 10px ; */
+    background-color: black;
+    opacity: 0.9;
+    z-index: -1;
+    padding: 15px;
+    color: palegoldenrod;
+    font-size: 3.5rem;
+    margin: 15px 0px 105px 0px;
+}
+.connect img{
+    height: 150px;
+    width: 600px;
+    display: block;
+    margin: auto;
+    padding: 25px;
+}
+.connect img:hover{
+    height:200px;
+    width: 800px;
+}
+
+
+.form-group{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    height: 30px;
+    
+}
+.forms{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    height: 0px;
+    
+    align-items: center;
+}
+.forms input{
+    background-color: peachpuff;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    padding: 5px;
+    width: 500px;
+}
+.forms img{
+    margin: 10px;
+    height: 300px;
+    width: 150px;
+}
+#footer{
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 460px 0px 0px 0px;
+    text-align: right;
+    color: peachpuff;
+    background-color: brown;
+    
+    padding: 20px;
+}
+.khatam::before{
+    background: url('./pizza.jpg') no-repeat center;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    content: "";
+    opacity: 0.8;
+    z-index: -1;
+    
+    /* opacity: 0.5; */
+    }
